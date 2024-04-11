@@ -40,7 +40,7 @@ async function chekWeather(city) {
             weatherIcon.src = "images/mist.png";
         }
 
-        document.querySelector('.weather').style.display = 'block';
+        document.querySelector('.weather').style.display = 'flex';
     }
 
 }

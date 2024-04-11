@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 800px;
 }
 
 .search input {
@@ -56,6 +57,12 @@ body {
     width: 16px;
 }
 
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .weather h1 {
     font-size: 80px;
@@ -73,8 +80,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
     margin-top: 50px;
+    width: -webkit-fill-available;
+    padding: 0 20px;;
 }
 
 .coll {
@@ -88,17 +96,47 @@ body {
     margin-right: 10px;
 }
 
- p.humidity, p.wind {
+p.humidity,
+p.wind {
     margin-right: 10px;
- }
+}
 
- .error {
+.error {
     display: flex;
- }
+}
 
- .weather, .error {
+.weather,
+.error {
     display: none;
- }
+}
 
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .search input {
+        width: 55%;
+
+    }
+
+.details {
+    width: 100%;
+    padding: 15px;
+}
+
+.coll {
+    margin: 0 10px;
+}
+
+.coll p{
+    font-size: 14px;
+}
+
+    .coll img {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+
+}
