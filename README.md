@@ -15,3 +15,5 @@
 Приложението използва API за метеорологични данни, което гарантира достъп до най-актуалната и точна информация за времето.
 
 
+![Screenshot 2024-06-19 155136](https://github.com/SlaviSolakchiev/WeatherApp/assets/78353852/5bd8a05b-f65b-4510-a2a8-9767dae17a16)
+![Screenshot 2024-06-19 155201](https://github.com/SlaviSolakchiev/WeatherApp/assets/78353852/0c3eae58-e494-4291-b4a2-5fef137b5069)
